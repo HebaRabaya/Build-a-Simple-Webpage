@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f0f0, #ccc);
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: lightgreen;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.relative-box {
+  position: relative;
+  background-color: #d4eaff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.relative {
+  position: relative;
+  background-color: #ffbb99;
+  padding: 10px;
+  display: inline-block;
+}
+
+.absolute {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #ff9999;
+  padding: 10px;
+  display: inline-block;
+}
+
+.float-container {
+  margin-top: 20px;
+}
+
+.float-left {
+  float: left;
+  width: 150px; /* حجم أكبر كما في المثال */
+  margin-right: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.cleared-text {
+  color: purple;
+  font-weight: bold;
+}
+
+.circle-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 40px auto;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  bottom: 0;
+  left: 30px;
+}
+
+.green {
+  background-color: green;
+  left: 0;
+  top: 30px;
+}
+
+.blue {
+  background-color: blue;
+  top: 0;
+  left: 30px;
+}
+
+.yellow {
+  background-color: yellow;
+  top: 30px;
+  right: 0;
+}
+
+.orange {
+  background-color: orange;
+  top: 30px;
+  left: 30px;
+}
